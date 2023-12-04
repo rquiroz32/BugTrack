@@ -5,12 +5,13 @@ import { MainPage } from "./pages/MainPage";
 import "./App.css"
 import { SearchBar } from "./components/SearchBar/SearchBar";
 
+
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route index element={<LoginPage />} />
-        <Route path='/main' element={<SearchBar/>}/>
+        <Route path='/main' element={<MainPage/>}/>
         <Route path="*" element={<LoginPage />} />
       </Routes>
     </BrowserRouter>

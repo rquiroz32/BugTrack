@@ -11,18 +11,18 @@ export default function LoginPage() {
             <ScrumImg />
             <div className='LoginContainer'>
                 <div className='formRow'>
-                    <label>Username</label>
-                    <input type="text" placeholder='User Name'></input>
+                    <label className='credential-form-labels'>Username</label>
+                    <input className='credential-inputs'type="text" placeholder='User Name'></input>
                 </div>
 
                 <div className='formRow'>
-                    <label>Password</label>
-                    <input type="text" placeholder='Password'></input>
+                    <label className='credential-form-labels'>Password</label>
+                    <input type="text"className='credential-inputs' placeholder='Password'></input>
                 </div>
 
-                <button>Login</button>
+                <button className='login-page-btns'>Login</button>
 
-                <button>Sign Up!</button>
+                <button className='login-page-btns'>Sign Up!</button>
             </div>
         </>
     )

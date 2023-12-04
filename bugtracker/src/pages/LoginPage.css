@@ -4,33 +4,37 @@
     flex-direction: column;    
     align-items: center;    
     row-gap: 25px;
+    width: 100vw;
 }
 
 .formRow{    
-    width: 20%;    
     display: flex;
-    flex-direction: column;        
+    flex-direction: column;    
+    width: 25%;
+    
 }
 
-label{    
+.credential-form-labels{    
     display: none;
     font-size: 14px;
     color: rgba(189, 186, 186, 0.973);    
 }
 
-input{    
+.credential-inputs{    
     border: none;
     background-color: #D9D9D9;
     border-radius: 5px;    
-    height: 3vh;
+    height: 2.25rem;
+    padding-left: 1rem;
+    
     
 } 
 
-button {
+.login-page-btns {
     border: none;
-    height: 3vh;
-    width: 20vw;
-    min-width: 100px;    
+    height: 2.25rem;
+    width: 25vw;
+      
     background-color: #D67B44;
     border-radius: 5px;
     color: black;
